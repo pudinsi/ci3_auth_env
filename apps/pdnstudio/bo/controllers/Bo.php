@@ -36,7 +36,7 @@ class Bo extends CI_Controller {
 		$where_user = ['users_email' => $email];
 		$this->load->model($this->MainModel(), 'M_najzmi');
 		$user = $this->M_najzmi->db_get_where($where_user);
-		$create_token = md5(time().'https://t.me/pudin_ira');
+		$create_token = md5(time().'https://t.me/pudin_ira'.base_url());
 		$token_user = array('users_token' => $create_token);
 		if($user){
 			// Jika user ada

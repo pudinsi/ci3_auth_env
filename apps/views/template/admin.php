@@ -56,7 +56,7 @@
 	<!-- Start Content-->
 	<?= isset($pdn_konten) ? $pdn_konten : ''; ?>
 	<!-- End Content-->
-	<script type="text/javascript" src="<?= base_url('assets/'); ?>js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="<?= base_url('assets/'); ?>js/jquery-3.7.0.min.js"></script>
 	<script type="text/javascript" src="<?= base_url('assets/'); ?>js/popper.min.js"></script>
 	<script type="text/javascript" src="<?= base_url('assets/'); ?>js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?= base_url('assets/'); ?>js/main.js"></script>

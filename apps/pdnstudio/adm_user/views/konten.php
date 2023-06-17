@@ -18,7 +18,7 @@
 				<div class="tile">
 					<div class="tile-body">
 						<div class="table-responsive">
-							<table class="table table-hover table-bordered" id="pdn_mytable" width="100%" style="width:100%;">
+							<table class="table table-hover" id="pdn_mytable" width="100%" style="width:100%;">
 								<thead>
 									<tr>
 										<th width="7%">No</th>
